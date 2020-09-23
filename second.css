@@ -10,7 +10,10 @@ h1 {
   color: yellow;
 }
 
-#intro {
-  background-color: orange;
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
   text-align: center;
 }
