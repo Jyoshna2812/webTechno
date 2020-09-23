@@ -7,3 +7,12 @@ h1 {
   margin-left: 20px;
 }
 
+.yellow
+{
+  background-color: yellow;
+}
+
+#intro {
+  background-color: yellow;
+  text-align: center;
+}
