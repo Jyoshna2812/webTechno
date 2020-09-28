@@ -1,4 +1,10 @@
 
+
+P{
+  color: navy;
+  margin-left: 20px;
+}
+
 * {
 margin: 0;
 padding: 0;
@@ -7,7 +13,7 @@ padding: 0;
 width: 100%;
 height: 100vh;
 }
-.box p{
+.box font{
 left:50%;
 color: #0000FF;
 background-color: #DA70D6;
