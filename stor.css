@@ -1,8 +1,17 @@
-h1{
-align="center";
-color="blue";
-background-color:"pink";
-font-family: fangsong;
-font-weight: 900;
-font-size: 72px;
+
+* {
+margin: 0;
+padding: 0;
+}
+.box {
+width: 100%;
+height: 100vh;
+}
+.box p{
+left:50%;
+color: #0000FF;
+background-color: #DA70D6;
+font-family: areal;
+font-weight: 500;
+font-size: 50px;
 }
