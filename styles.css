@@ -89,7 +89,7 @@ color:#353b48;
 }
 .box h4{
 position: absolute;
-top:98%;
+top:95%;
 left:19%;
 transform:
 translate(-50%,-50%);
@@ -101,7 +101,7 @@ animation: textanimation 3s 1;
 }
 .box h3{
 position: absolute;
-top:100%;
+top:98%;
 left:17%;
 transform:
 translate(-50%,-50%);
