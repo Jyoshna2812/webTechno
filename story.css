@@ -1,12 +1,8 @@
 h1{
 position: absolute;
 align="center";
-color="white";
-background-color:"grey";
-top:0%;
-left: 40%;
-transform:
-translate(-50%,-50%);
+color="blue";
+background-color:"rose";
 color: #fff;
 font-family: fangsong;
 font-weight: 900;
