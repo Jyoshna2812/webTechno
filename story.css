@@ -1,6 +1,8 @@
 h1{
 position: absolute;
-top: 45%;
+align="center";
+color="white";
+background-color:"grey";
 left: 40%;
 transform:
 translate(-50%,-50%);
