@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>web-dev-guide</title>
+<link rel="shortcut icon" type="image/jpeg" href="prof.jpeg">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<style> 
+*{
+   margin:0px;
+   padding:0px;
+}
+.dropdown
+{
+position:relative;
+display:inline-block;
+font-family:'Poppins';
+}
+.dropdown button
+{
+padding:10px 4 px;
+font-size:60px;
+background-color:white;
+border:3px solid black;
+font-family:'Poppins';
+}
+ .dropdown button:hover{
+    background-color:#007FFF;
+   color:#000000;
+   font-size:50px;
+  white-space:nowrap;
+  cursor:pointer;
+  }
+
+#drop-content div a:hover{
+   background-color:#007FFF;
+    color:black;
+    font-size:30px;
+  }
+#drop-content
+{
+position:absolute;
+z-index:1;
+}
+#drop-content  a{
+   display:block;
+   font-size:40px;
+   background:white;
+   color:black;
+   text-decoration:none;
+   padding:20px 41px;
+   margin-top:1px;
+   margin-left:4%;
+   border:2px solid #E8E8E8;
+  text-align:left;
+  font-family:'Poppins';
+  width:85%;
+}
+
+
+.drop button:hover{
+background:#007FFF;
+}
+</style>
+</head>
+<body>
+<center>
+
+<h1 align="center" style="margin-left:3%;margin-right:3%;margin-top:15%;font-weight: 600;color:#353839;font-size: 100px;height:8%;width:700px;height:14%;background-color:white;
+      border:none;
+     box-shadow:12px 12px 4px #DCDCDC ,-1px -1px 4px  rgba(0,0,0,.5);">CSS Preprocessor<h1>
+   <div class="dropdown">
+      <button onclick="show_hide()" style="margin-left:30px;margin-top:30%;border:3px solid black;color:black;border-color:black;box-shadow:9px 9px 4px #DCDCDC ,-1px -1px 4px  rgba(0,0,0,.5);height:8%;width:700px;text-align:left;" class="button">&nbsp;&nbsp;Resources</button>
+   <div style="display:none;" Id="drop-content"> 
+    <a></a><a style="color:#007Fff;font-weight:1000;" href="https://www.codecademy.com/learn/learn-sass"><br>Learn Sass Tutorial-&nbsp;By code academy<br><br></a>
+      <a style="color:#007Fff;font-weight:1000;" href="https://sass-lang.com/guide"><br>Sass&nbsp;Basics<br><br></a>
+      <a style="color:#007Fff;font-weight:1000;" href="http://lesscss.org/"><span><br>Learn &nbsp; Less<br><br></a></span>
+       <a style="color:#007Fff;font-weight:1000;" href="https://tutorialzine.com/2015/07/learn-less-in-10-minutes-or-less"><span><br>Learn Less &nbsp; 10 Minutes<br><br></a></span>
+      <a style="color:#007Fff;font-weight:1000;" href="https://stylus-lang.com/"><span><br>Stylus &nbsp; <br><br></a></span>
+      <a style="color:#007Fff;font-weight:1000;" href="https://www.sitepoint.com/an-introduction-to-postcss/"><span><br>Introduction to &nbsp; Post CSS<br><br></a></span>
+     <a style="color:#007Fff;font-weight:1000;" href="https://www.smashingmagazine.com/2015/12/introduction-to-postcss/"><span><br>Post-CSS A Comprehensive Introduction By &nbsp; Smashing Magazine<br><br></a></span>
+   </div> 
+  </div></center>
+ <script>
+   function show_hide(){
+    var click=document.getElementById("drop-content") ;
+if(click.style.display==="none") 
+   {
+      click.style.display="block";
+   }
+    else
+    {
+     click.style.display="none";
+    }
+}
+
+</script>
+
+</body>
+</html>
