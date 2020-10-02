@@ -1,0 +1,388 @@
+<html>
+<head>
+<title>web-dev-guide</title>
+<link rel="shortcut icon" type="image/jpeg" href="prof.jpeg">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<style> 
+*{
+   margin:0px;
+   padding:0px;
+}
+.dropdown
+{
+position:relative;
+display:inline-block;
+font-family:'Poppins';
+}
+.dropdown button
+{
+padding:10px 4 px;
+font-size:60px;
+background-color:white;
+border:3px solid black;
+font-family:'Poppins';
+}
+ .dropdown button:hover{
+    background-color:#007FFF;
+   color:#000000;
+   font-size:50px;
+  white-space:nowrap;
+  cursor:pointer;
+  }
+
+#drop-content div a:hover{
+   background-color:#007FFF;
+    color:black;
+    font-size:30px;
+  }
+#drop-content
+{
+position:absolute;
+z-index:1;
+}
+#drop-content  a{
+   display:block;
+   font-size:40px;
+   background:white;
+   color:black;
+   text-decoration:none;
+   padding:20px 41px;
+   margin-top:1px;
+   margin-left:4%;
+   border:2px solid #E8E8E8;
+  text-align:left;
+  font-family:'Poppins';
+  width:630px;
+}
+
+.drop
+{
+position:relative;
+display:inline-block;
+font-family:'Poppins';
+}
+.drop button
+{
+padding:10px 4 px;
+font-size:50px;
+background-color:white;
+border:3px solid black;
+font-family:'Poppins';
+}
+.drop button:hover{
+    background-color:#007FFF;
+   color:#000000;
+   font-size:50px;
+  white-space:nowrap;
+  }
+#dropc div a:hover{
+   background-color:#007FFF;
+    color:black;
+    font-size:30px;
+    cursor:pointer;
+    font-family:'Poppins';
+  }
+#dropc
+{
+position:absolute;
+z-index:1;
+}
+#dropc  a{
+   display:block;
+   font-size:40px;
+   background:white;
+   color:black;
+   text-decoration:none;
+   padding:20px 41px;
+   margin-top:1px;
+   margin-left:4%;
+   border:2px solid #E8E8E8;
+  text-align:left;
+   width:630px;
+   font-family:'Poppins';
+    
+}
+
+.drop1
+{
+position:relative;
+display:inline-block;
+font-family:'Poppins';
+}
+.drop1 button
+{
+padding:10px 4 px;
+font-size:50px;
+background-color:white;
+border:3px solid black;
+font-family:'Poppins';
+}
+.drop1 button:hover{
+    background-color:#007FFF;
+   color:#000000;
+   font-size:50px;
+  white-space:nowrap;
+  }
+#dropc1 div a:hover{
+   background-color:#007FFF;
+    color:black;
+    font-size:30px;
+    cursor:pointer;
+    font-family:'Poppins';
+  }
+#dropc1
+{
+position:absolute;
+z-index:1;
+}
+#dropc1  a{
+   display:block;
+   font-size:40px;
+   background:white;
+   color:black;
+   text-decoration:none;
+   padding:20px 41px;
+   margin-top:1px;
+   margin-left:4%;
+   border:2px solid #E8E8E8;
+  text-align:left;
+   width:620px;
+   font-family:'Poppins';
+    
+}
+.drop2
+{
+position:relative;
+display:inline-block;
+font-family:'Poppins';
+}
+.drop2 button
+{
+padding:10px 4 px;
+font-size:50px;
+background-color:white;
+border:3px solid black;
+font-family:'Poppins';
+}
+.drop2 button:hover{
+    background-color:#007FFF;
+   color:#000000;
+   font-size:50px;
+  white-space:nowrap;
+  }
+#dropc2 div a:hover{
+   background-color:#007FFF;
+    color:black;
+    font-size:30px;
+    cursor:pointer;
+    font-family:'Poppins';
+  }
+#dropc2
+{
+position:absolute;
+z-index:1;
+}
+#dropc2  a{
+   display:block;
+   font-size:40px;
+   background:white;
+   color:black;
+   text-decoration:none;
+   padding:20px 41px;
+   margin-top:1px;
+   margin-left:4%;
+   border:2px solid #E8E8E8;
+  text-align:left;
+   width:620px;
+   font-family:'Poppins';
+    
+}
+.drop3
+{
+position:relative;
+display:inline-block;
+font-family:'Poppins';
+}
+.drop3 button
+{
+padding:10px 4 px;
+font-size:50px;
+background-color:white;
+border:3px solid black;
+font-family:'Poppins';
+}
+.drop3 button:hover{
+    background-color:#007FFF;
+   color:#000000;
+   font-size:50px;
+  white-space:nowrap;
+  }
+#dropc3 div a:hover{
+   background-color:#007FFF;
+    color:black;
+    font-size:30px;
+    cursor:pointer;
+    font-family:'Poppins';
+  }
+#dropc3
+{
+position:absolute;
+z-index:1;
+}
+#dropc3  a{
+   display:block;
+   font-size:40px;
+   background:white;
+   color:black;
+   text-decoration:none;
+   padding:20px 41px;
+   margin-top:1px;
+   margin-left:4%;
+   border:2px solid #E8E8E8;
+  text-align:left;
+   width:620px;
+   font-family:'Poppins';
+    
+}
+.drop button:hover{
+background:#007FFF;
+}
+</style>
+</head>
+<body>
+<center>
+
+<h1 align="center" style="margin-left:3%;margin-right:3%;margin-top:15%;font-weight: 600;color:#353839;font-size: 100px;height:8%;width:700px;background-color:white;
+      border:none;
+     box-shadow:12px 12px 4px #DCDCDC ,-1px -1px 4px  rgba(0,0,0,.5);">JavaScript<h1>
+   <div class="dropdown">
+      <button onclick="show_hide()" style="margin-left:30px;margin-top:30%;border:3px solid black;color:black;border-color:black;box-shadow:9px 9px 4px #DCDCDC ,-1px -1px 4px  rgba(0,0,0,.5);height:8%;width:700px;text-align:left;" class="button">&nbsp;&nbsp;Basics</button>
+   <div style="display:none;" Id="drop-content"> 
+    <a></a>
+<a style="color:#007Fff;font-weight:1000;" href="https://www.sololearn.com/Course/JavaScript/"><span><br>JavaScript Tutorial &nbsp;By SoloLearn<br><br></a></span>
+<a style="color:#007Fff;font-weight:1000;" href="https://www.pluralsight.com/paths/javascript-core-language"><br> JavaScript Tutorial&nbsp;By code school<br><br></a>
+        <a style="color:#007Fff;font-weight:1000;" href="https://www.learn-js.org/"><br> JavaScript Tutorial &nbsp;By  Learn Js<br><br></a>    
+<a style="color:#007Fff;font-weight:1000;" href="https://www.rithmschool.com/courses/javascript"><br> JavaScript Tutorial &nbsp;By  code acadamy<br><br></a>
+      
+ <a style="color:#007Fff;font-weight:1000;"   href="https://www.edx.org/course/html5-and-css-fundamentals"><br>JavaScript Fundamentals &nbsp;By Rithm School<br><br></a>
+   </div> 
+  </div></center>
+ <script>
+   function show_hide(){
+    var click=document.getElementById("drop-content") ;
+if(click.style.display==="none") 
+   {
+      click.style.display="block";
+   }
+    else
+    {
+     click.style.display="none";
+    }
+}
+
+</script>
+<center>
+   <div class="drop">
+      <button onclick="show_hide1()"  style="margin-left:30px;margin-top:30%;border:3px solid black;color:black;border-color:black;box-shadow:9px 9px 4px #DCDCDC ,-1px -1px 4px  rgba(0,0,0,.5);height:8%;width:700px;text-align:left;margin-top:40px;font-size:60px;">&nbsp;&nbsp;Intermediate</button>
+   <div style="display:none;" Id="dropc"> 
+    <a></a>
+      <a style="font-family:'Poppins'; color:#007Fff;font-weight:1000;" href="https://www.codecademy.com/learn/learn-html"><span><br>Learn JS &nbsp;By codeacademy<br><br></a></span>
+ <a style="color:#007Fff;font-family:'Poppins';font-weight:1000;"   href="https://websitesetup.org/html5-cheat-sheet/"><br>JS &nbsp;Cheatsheet<br><br></a>
+   </div> 
+  </div></center>
+ <script>
+   function show_hide1(){
+    var click=document.getElementById("dropc") ;
+if(click.style.display==="none") 
+   {
+      click.style.display="block";
+   }
+    else
+    {
+     click.style.display="none";
+    }
+}
+</script>
+<center>
+   <div class="drop1">
+      <button onclick="show_hide2()"  style="margin-left:30px;margin-top:30%;border:3px solid black;color:black;border-color:black;box-shadow:9px 9px 4px #DCDCDC ,-1px -1px 4px  rgba(0,0,0,.5);height:8%;width:700px;text-align:left;margin-top:40px;font-size:60px;">&nbsp;&nbsp;Advanced</button>
+   <div style="display:none;" Id="dropc1"> 
+    <a></a>
+      <a style="font-family:'Poppins'; color:#007Fff;font-weight:1000;" href="https://www.rithmschool.com/courses/advanced-javascript"><span><br>Advanced JavaScript1 &nbsp;By Rithm School<br><br></a></span>
+ <a style="color:#007Fff;font-family:'Poppins';font-weight:1000;"   href="https://www.rithmschool.com/courses/advanced-javascript-part-2"><br>Advanced JavaScript2 &nbsp;By Rithm School<br><br></a>
+   </div> 
+  </div></center>
+ <script>
+   function show_hide2(){
+    var click=document.getElementById("dropc1") ;
+if(click.style.display==="none") 
+   {
+      click.style.display="block";
+   }
+    else
+    {
+     click.style.display="none";
+    }
+}
+</script>
+<center>
+   <div class="drop2">
+      <button onclick="show_hide3()"  style="margin-left:30px;margin-top:30%;border:3px solid black;color:black;border-color:black;box-shadow:9px 9px 4px #DCDCDC ,-1px -1px 4px  rgba(0,0,0,.5);height:8%;width:700px;text-align:left;margin-top:40px;font-size:60px;">&nbsp;&nbsp;Books</button>
+   <div style="display:none;" Id="dropc2"> 
+    <a></a>
+      <a style="font-family:'Poppins'; color:#007Fff;font-weight:1000;" href="https://eloquentjavascript.net/"><span><br>Eloquent JavaScript- &nbsp;JavaScript Book<br><br></a></span>
+ <a style="color:#007Fff;font-family:'Poppins';font-weight:1000;"   href="https://github.com/getify/You-Dont-Know-JS"><br>You don't know JavaScript-Free, &nbsp;Hosted on GitHub<br><br></a>
+<a style="color:#007Fff;font-family:'Poppins';font-weight:1000;"   href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/"><br>Learning  JavaScript Design patterns-, &nbsp;Reusable solutions to commonly occuring problems<br><br></a>
+   </div> 
+  </div></center>
+ <script>
+   function show_hide3(){
+    var click=document.getElementById("dropc2") ;
+if(click.style.display==="none") 
+   {
+      click.style.display="block";
+   }
+    else
+    {
+     click.style.display="none";
+    }
+}
+</script>
+<center>
+   <div class="drop3">
+      <button onclick="show_hide4()"  style="margin-left:30px;margin-top:30%;border:3px solid black;color:black;border-color:black;box-shadow:9px 9px 4px #DCDCDC ,-1px -1px 4px  rgba(0,0,0,.5);height:8%;width:700px;text-align:left;margin-top:40px;font-size:60px;">&nbsp;&nbsp;Projects</button>
+   <div style="display:none;" Id="dropc3"> 
+    <a></a>
+      <a style="font-family:'Poppins'; color:#007Fff;font-weight:1000;" href="https://javascript30.com/"><span><br>JS 30 for 30-30 project&nbsp;for 30 days<br><br></a></span>
+ <a style="color:#007Fff;font-family:'Poppins';font-weight:1000;"   href="https://medium.com/@___aerox___/the-beginning-of-an-adventure-13-weeks-of-javascript-78107605d533"><br>13 Weeks of&nbsp;JavaScript<br><br></a>
+
+   </div> 
+  </div></center>
+ <script>
+   function show_hide4(){
+    var click=document.getElementById("dropc3") ;
+if(click.style.display==="none") 
+   {
+      click.style.display="block";
+   }
+    else
+    {
+     click.style.display="none";
+    }
+}
+</script>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
