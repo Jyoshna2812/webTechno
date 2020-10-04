@@ -1,0 +1,197 @@
+<html>
+<head>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+
+<title>Registration Form</title>
+
+
+<style>
+*{
+  margin: 0;
+  padding: 0;
+ }
+input{
+background:#EDF0F5;
+border:none;
+outline:none;
+}
+table
+{
+margin-left:100px;
+margin-right:100px;
+
+}
+.content{ 
+  
+  margin-top:200px; 
+  position: absolute;
+  width: 1000px;
+  height: 1300px;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.25), 0 7px 7px rgba(0, 0, 0, 0.22);
+font-family: 'Poppins', sans-serif;
+ border-radius:030px;
+}
+
+
+
+h6{
+
+font-family: sans-serif;
+
+margin: 100px auto;
+
+text-align: center;
+
+font-size: 40px;
+
+max-width: 600px;
+
+position:relative;
+ color:#C8C8C8;
+
+}
+
+h6:before{
+
+content: "";
+
+display:block;
+
+width: 260px;
+
+height:2px;
+
+background: #C8C8C8;
+
+position: absolute;
+color:#C8C8C8;
+left: 0;
+
+top: 50%;
+
+z-index: -2;
+
+}
+
+h6:after{
+
+content: "";
+
+display:block;
+
+width: 260px;
+
+height:2px;
+
+background:#C8C8C8 ;
+
+position: absolute;
+
+right: 0;
+color:#C8C8C8;
+top: 50%;
+
+z-index: -2;
+
+}
+ button:hover{
+background:#0066FF;
+color:white;
+}
+
+span{
+
+background: #fff
+
+}
+</style>
+</head>
+<body>
+<script>
+function myfun() 
+{
+var a=document.getElementById("passwords").value;
+var b=document.getElementById("passwordss").value;
+if(a!=b) 
+{
+document.getElementById("messages").innerHTML="passwords are not same";
+return false;
+}
+}
+</script>
+
+
+<div class="content">
+<h2 style="margin-top:80px;margin-left:200px;
+margin-right:60px;font-size:25px;">Sign Up to Cosmetics</h2><br><br>
+<button style="margin-left:200px;margin-top:19px;width:360px;height:64px;font-size:25px;color:#1e9ff0;"><i style="color:black;" class="fab fa-google"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i style="color:grey;">sign up with Google&nbsp;&nbsp;</i></button>
+<button style="margin-left:10px;width:60px;height:64px;font-size:35px;color:#1e9ff0;"><i style="color:black;" class="fab fa-facebook-square"></i></button>
+<button style="margin-left:10px;width:60px;height:64px;font-size:35px;color:#1e9ff0;"><i style="color:black;" class="fab fa-twitter-square"></i></button>
+<button style="margin-left:10px;width:60px;height:64px;font-size:35px;color:#1e9ff0;"><i style="color:black;" class="fab fa-linkedin"></i></button><br><br>
+<h6 style="margin-top:20px;margin-bottom:25px;color:
+#C8C8C8;font-size:30px;"><span>or</span></h6>
+<form onsubmit="return myfun()">
+   
+     <table style="margin-top:10px;" align="center" cellpaddig="4px" cellspacing=20>
+        <tr>
+           <td><label style="margin-left:85px;
+margin-right:60px;font-size:24px;"for="fn">Full Name</label></td>
+           <td><label style="font-size:24px;margin-left:-35px;" for="un">User Name</label></td>
+        </tr>
+        <tr>
+           <td><input style="font-size:22px;
+width:270px;
+height:70px;margin-left:85px;
+margin-right:60px;border-radius:005px;" class="input1" type="text" name="fn" pattern="[A-Za-z]{,50}" required="required" placeholder="Fullname"></td>
+           <td><input style="font-size:22px;
+width:270px;
+height:70px;
+border-radius:005px;margin-left:-35px;"  class="input1" type="text" name="un" pattern="[A-Za-z]{,50}" required="required" placeholder="username"></td>
+        </tr></table><br><br>
+        
+           <label style="margin-left:210px;
+margin-right:60px;font-size:24px;" for="email">Email Address</label>
+  <br>  <br>   
+     
+           <input style="font-size:22px;
+width:590px;
+height:70px;margin-left:210px;
+margin-right:60px;border-radius:005px;" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="required" placeholder="abc@gmail.com">
+        <br><br><br>
+          
+           <label style="margin-left:210px;
+margin-right:60px;font-size:24px;" for="pwd">Password</label><br><br>
+        
+           
+     
+           <input id="passwords" style="font-size:22px;
+width:590px;
+height:70px;margin-left:210px;
+margin-right:60px;border-radius:005px;"  type="password" name="pwd" required="required" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="must contain 8*, Uppercase and lowercase characters"><br><span style="margin-left:210px;color:red;" id="messages"></span><br><br><br>
+
+
+<label style="margin-left:210px;
+margin-right:60px;font-size:24px;" for="pwd">Confirm Password</label><br><br>
+<input id="passwordss" style="font-size:22px;
+width:590px;
+height:70px;margin-left:210px;
+margin-right:60px;border-radius:005px;"  type="password" name="pwd" required="required" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}" >
+
+        <br><br><br>
+   <input style="margin-left:210px;border:2px solid black;font-size:200px;" type="checkbox" required="required" name="pp">
+<label style="font-size:25px;color:#C0C0C0;" for="pp">privacy&policy</label>
+<br><br>
+
+
+<center><button style="margin-top:4%;font-size:30px;width:600px;height:85px;background:black;border:none;color:white;" name="btn">Create  Account</button></center>
+<span><h2 style="margin-top:20px;margin-left:340px;
+margin-right:60px;font-size:25px;color:grey;">Already a member? 
+<a href="" style="color:grey;">Sign In</a></h2></span>
+</div>
+</form>
+
+
+
+</body>
+</html>
