@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Login Page</title>
+<link rel="shortcut icon" type="image/jpeg" href="prof.jpeg">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+
+<style>
+*{
+  margin: 0;
+  padding: 0;
+ }
+.content{   
+  margin-top:200px; 
+  position: absolute;
+  width: 1000px;
+  height: 1300px;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.25), 0 7px 7px rgba(0, 0, 0, 0.22);
+font-family: 'Poppins', sans-serif;
+ border-radius:030px;
+}
+input{
+background:#EDF0F5;
+border:none;
+outline:none;
+}
+button:hover{
+background:white;
+color:black;
+}
+</style>
+</head>
+<body>
+<div class="content">
+<form style="margin-top:2%;">
+<h1 align="center" style=" border:none;margin-left:33%;margin-right:3%;margin-top:30%;font-weight: 600;color:#353839;font-size: 65px;width:410px;text-align:center;height:7%;
+     box-shadow:1px 1px 4px #DCDCDC ,-1px -1px 4px  rgba(0,0,0,.5);">Login</h1><br><br><br><br>
+<center><label style="font-size:27px;margin-left:-94px;margin-top:90%;" for="lun">User Name</label><br><br>
+<input style="font-size:27px;
+width:270px;
+height:70px;
+border-radius:005px;margin-left:45px;padding:10px;margin-bottom:20px;"  type="text" name="lun" pattern="[A-Za-z]{,50}" required="required" ><br><br><br>
+ <label style="font-size:27px;margin-left:-99px;" for="pwd1">Password</label><br><br>
+      
+           <input id="pwd" style="font-size:27px;
+width:270px;padding:10px;
+height:70px;margin-left:105px;
+margin-right:60px;border-radius:005px;"  type="password" name="pwd1" required="required" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}" <br><br><br><br>
+<a href="" style="color:black;margin-left:55px;font-size:28px;text-decoration
+:none;color:grey;" align="center">Forgot Password? </a>
+<br><br><br><br>
+<button align="center" style="margin-left:45px;width:525px;height:5%;border:none;font-size:30px;background:#007FFF;">Log In</button><br><br>
+
+<span style="font-size:23px;margin-left:55px;">Not a member??<a href="j.html" style="font-size:28px;text-decoration:none;color:#007FFF;" align="center"></span>Sign Up</a>
+</div></center>
+</form>
+</body>
+</html>
